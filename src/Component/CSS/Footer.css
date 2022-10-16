@@ -1,0 +1,35 @@
+.footer_div{
+    background-color: black;
+    color: white !important ;
+    padding: 20px 0px;
+    /* margin-top: 10px; */
+    /* border-top: 1px solid black; */
+}
+.foot_links{
+    text-decoration: none;
+    color: white !important; 
+}
+.footer1{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    border-bottom: 1px solid white;
+}
+.social{
+    color: #1b8ad2;
+}
+.Footer2{
+    width: 90%;
+    margin: auto;
+}
+@media screen and (max-width:650px) {
+    .footer1{
+        flex-direction: column;
+        width: 95%;
+    }
+    .Footer2{
+        width: 95%;
+    }
+}

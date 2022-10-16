@@ -1,0 +1,20 @@
+body {
+    background-color: var(--hcbgc);
+    color: var(--hcbc);
+}
+.checkoutMainDiv{
+    text-align: center;
+}
+.checkoutimg{
+    padding-top: 100px;
+    /* background-color: var(--hcbgc); */
+}
+.goHome{
+    padding: 10px 20px;
+    background-color: #1b8ad2;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-style: outset;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
